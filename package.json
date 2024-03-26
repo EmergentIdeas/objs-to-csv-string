@@ -1,0 +1,22 @@
+{
+	"name": "@webhandle/objs-to-csv-string",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.mjs",
+	"scripts": {
+		"test": "mocha"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "module",
+	"devDependencies": {
+		"chai": "^5.1.0",
+		"mocha": "^10.3.0"
+	},
+	"files": [
+		"README.md",
+		"all-keys.mjs",
+		"index.mjs"
+	]
+}
