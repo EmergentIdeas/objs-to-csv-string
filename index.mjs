@@ -55,7 +55,7 @@ export default function convert(data, {
 
 function valuesRow(values, separator) {
 	let cols = values.map(makeStringValue).map(quoteValue)
-	return cols.join(',')
+	return cols.join(separator)
 }
 
 function makeStringValue(value) {
